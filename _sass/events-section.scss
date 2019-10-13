@@ -1,0 +1,23 @@
+.events-section {
+  margin: 8px;
+  .post-list-heading {
+    text-align: center;
+  }
+  .post-list {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+      display: inline-block;
+      margin: 24px;
+      text-align: center;
+      min-width: 250px; // flexbox fix
+      width: 250px;
+      .featured-image {
+        height: 200px;
+        margin: 8px auto;
+      }
+    }
+  }
+}

@@ -5,4 +5,4 @@ var glide = new Glide(".glide", {
   gap:0,
   focusAt:'center'
 });
-glide.mount({auto})
+glide.mount()

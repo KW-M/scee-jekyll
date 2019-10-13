@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Big Ideas"
 date:   2019-10-05 18:38:51 -0700
-categories: jekyll update
+show-in-news: false
+featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
+featured-image-hover-text: "Merrill Cultural Center"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

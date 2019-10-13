@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/scee-jekyll" # the subpath of your site, e.g. /blog
 url: "http://scee.ucsc.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -46,8 +46,9 @@ rss: rss
 header_pages:
 - index.html
 - _pages/about.md
+- _pages/blog.html
 - _pages/contact.html
-- _pages/teams.html
+
 
 # Build settings
 theme: minima
