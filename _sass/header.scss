@@ -1,0 +1,34 @@
+.site-header {
+  border: unset;
+  box-shadow: 2px 2px 5px #00000030;
+  z-index: 50;
+  .wrapper {
+    max-width: unset;
+    padding: 0 20px;
+  }
+  .site-logo img {
+    height: 80px;
+    width: 80px;
+  }
+  .site-nav {
+    line-height: 80px;
+  }
+  .page-link {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .page-link.link-active {
+color: #ffcc00;
+  }
+
+  .page-link:hover {
+    text-decoration: none;
+  }
+
+
+}

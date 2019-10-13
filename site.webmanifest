@@ -1,0 +1,20 @@
+{
+  "name": "Students for Creativity and Entrepenurial Enpowerment",
+  "short_name": "SCEE",
+  "icons": [
+    {
+      "src": "assets/images/logo-sizes/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo-sizes/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#2c3b71",
+  "background_color": "#ffffff",
+  "display": "minimal-ui"
+}
