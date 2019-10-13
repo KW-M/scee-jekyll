@@ -5,6 +5,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: post
+  hidden: true
 - type: text
   name: title
   label: title
@@ -14,6 +18,7 @@ fields:
 - type: boolean
   name: show-in-news
   label: show-in-news
+  description: If true this post will show up in the Events section on the home page.
 - type: file
   name: featured-image
   label: featured-image
