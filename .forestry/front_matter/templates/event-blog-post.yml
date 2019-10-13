@@ -19,6 +19,7 @@ fields:
   name: show-in-news
   label: show-in-news
   description: If true this post will show up in the Events section on the home page.
+  default: true
 - type: file
   name: featured-image
   label: featured-image
