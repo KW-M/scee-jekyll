@@ -1,4 +1,8 @@
 <div class="glide">
+  <div data-glide-el="controls" id="carousel_controls">
+    <button data-glide-dir="<">❮</button>
+    <button data-glide-dir=">" style="right: 0">❯</button>
+  </div>
   <div class="glide__track" data-glide-el="track">
     <ul class="glide__slides">
       <li class="glide__slide">
@@ -24,16 +28,29 @@
   href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
 />
 <style>
-    .glide__slide {
-        transform:translateX(-30px)
-    }
-    .glide__slide img {
-        height: 40vw;
-        width: 100%;
-    }
-
+  .glide__slide {
+    transform: translateX(-30px);
+  }
+  .glide__slide img {
+    height: 40vw;
+    width: 100%;
+  }
+  #carousel_controls button {
+    font-size: 10ex;
+    height: 100%;
+    position: absolute;
+    margin-top: 10px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    z-index: 5;
+    opacity: 0.5;
+  }
+  #carousel_controls button:hover {
+    opacity: 1;
+  }
 </style>
-<script
-  src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.js"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.js"></script>
 <script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

@@ -3,6 +3,8 @@ var glide = new Glide(".glide", {
   startAt: 0,
   perView: 1,
   gap:0,
-  focusAt:'center'
+  focusAt:'center',
+  autoplay: 3000
 });
+
 glide.mount()
