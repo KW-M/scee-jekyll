@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Slug Tank
-date: 2019-10-02 01:38:51 +0000
+date: 2019-10-02T01:38:51.000+00:00
 show-in-news: true
 featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
 featured-image-hover-text: Merrill Cultural Center
 
 ---
-On October 24th, we will be hosting our first main event, Slug Tank. Drop by and see everything that Slug Tank has to offer. Feel free to explore start up alley, listen in on our great cast of Slug Tank participants and their great ideas, and indulge in the free food
+On **October 24th**, we will be hosting our first main event, Slug Tank. Drop by and see everything that Slug Tank has to offer. Feel free to explore start up alley, listen in on our great cast of Slug Tank participants and their great ideas, and indulge in the free food
