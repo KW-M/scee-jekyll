@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "SCEE 2019"
-date:   2019-10-05 18:38:51 -0700
+title: SCEE 2019
+date: 2019-01-05 02:38:51 +0000
 show-in-news: true
 featured-image: "/assets/images/post-images/health-center.jpg"
-featured-image-hover-text: "UCSC Health Center"
+featured-image-hover-text: UCSC Health Center
+
 ---
 SCEE aims to have more impact on student culture in 2019 and 2020! Keep up to date with us on our social media platforms linked below if you want to stay up to date on everything we're doing! Big things to come!
 
