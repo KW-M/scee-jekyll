@@ -10,7 +10,7 @@
               {{ post.title | escape }}
           </h3>
           {%- if post.featured-image -%}
-            <img src="{{ post.featured-image | relative_url }}" class="featured-image"/>
+            <img src="{{ post.featured-image | relative_url }}" class="featured-image" alt="{{ post.featured-image-hover-text | default: 'article image' }}" />
           {%- endif -%}
         </a>
         <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -26,7 +26,7 @@
 
 <p class="feed-subscribe">
   <a href="{{ 'feed.xml' | relative_url }}">
-    <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+    <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS Subscribe</span>
   </a>
 </p>
 {%- endif -%}
