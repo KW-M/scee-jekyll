@@ -26,3 +26,5 @@ fields:
 - type: text
   name: featured-image-hover-text
   label: featured-image-hover-text
+pages:
+- _posts/draft-title.md
