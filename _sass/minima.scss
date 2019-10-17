@@ -48,6 +48,13 @@ $on-large:         $on-laptop !default;
   font-size: $base-font-size * $ratio;
 }
 
+// Handy clearfix class:
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
 // Import partials.
 @import
   "minima/base",
@@ -57,5 +64,6 @@ $on-large:         $on-laptop !default;
   "footer",
   "post",
   "events-section",
-  "contact-form"
+  "contact-form",
+  "team"
 ;
