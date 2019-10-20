@@ -5,18 +5,33 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: post
+  config:
+    required: true
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  description: The date this blog post is published.
+  config:
+    required: true
+  default: now
 - type: datetime
   name: event-date
   label: event-date
+  description: The date this event is occuring (leave blank if this post isn't associated
+    with a time).
 - type: boolean
   name: show-in-events
   label: show-in-events
+  description: " If true this post will show up in the Events section on the home
+    page."
+  default: true
 - type: file
   name: featured-image
   label: featured-image
