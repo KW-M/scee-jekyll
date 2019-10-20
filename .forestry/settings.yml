@@ -6,8 +6,8 @@ webhook_url:
 sections:
 - type: directory
   path: _pages
-  label: pages
-  create: all
+  label: Pages
+  create: documents
   match: "**/*"
   new_doc_ext: ".html"
 - type: jekyll-posts
