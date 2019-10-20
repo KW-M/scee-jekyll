@@ -21,7 +21,8 @@ fields:
 - type: datetime
   name: event-date
   label: event-date
-  description: The date this event is occuring (leave blank if this post isn't associated with a time).
+  description: The date this event is occuring (leave blank if this post isn't associated
+    with a time).
 - type: boolean
   name: show-in-events
   label: show-in-events
