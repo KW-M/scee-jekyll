@@ -19,16 +19,17 @@ sections:
   templates:
   - html-page
 - type: directory
-  path: assets
-  label: Assets
+  path: assets/images
+  label: Images
   create: all
   match: "**/*"
+  new_doc_ext: ".png"
 - type: directory
   path: _data
   label: Data
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 upload_dir: assets/images/post-images
 public_path: "/assets/images/post-images"
 front_matter_path: ''
