@@ -28,7 +28,7 @@ sections:
   label: Data
   create: documents
   match: "**/*"
-  new_doc_ext: json
+  new_doc_ext: ".json"
 upload_dir: assets/images/post-images
 public_path: "/assets/images/post-images"
 front_matter_path: ''
