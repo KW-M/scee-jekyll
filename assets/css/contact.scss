@@ -1,0 +1,55 @@
+---
+# // This is the Front Matter block, it tells Jekyll to process this scss file into plain css.
+---
+
+.contact-form {
+  margin: 0 8px;
+  h1 {
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 80px;
+    font-size: 45px;
+  }
+  .contact-field {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 45px;
+    margin: 20px auto;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    text-align: start;
+    max-width: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+  }
+  #submitButton {
+    padding: 0px;
+    display: block;
+    height: 60px;
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background-color: #ffcc00;
+    box-shadow: 2px 2px 5px #e6e6e6;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin: auto;
+  }
+  #submitButton:hover {
+    border-width: 0px;
+    background-color: black;
+    color: white;
+  }
+}

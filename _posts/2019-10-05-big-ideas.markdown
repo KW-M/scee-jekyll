@@ -2,7 +2,8 @@
 layout: post
 title: Big Ideas
 date: 2019-10-06T01:38:51.000+00:00
-show-in-news: true
+event-date: 2019-10-06T01:38:51.000+00:00
+show-in-events: true
 featured-image: "/assets/images/post-images/light-bulb-idea.jpg"
 featured-image-hover-text: Ideas
 

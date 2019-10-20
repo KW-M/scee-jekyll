@@ -45,7 +45,7 @@ rss: rss
 # this and add the path to the pages in order as they should show up
 header_pages:
 - index.html
-- _pages/about.md
+- _pages/about.html
 - _pages/blog.html
 - _pages/contact.html
 
@@ -58,7 +58,8 @@ plugins:
   - jekyll-seo-tag
 
 sass:
-  sass_dir: _sass
+  sass_dir: _sass_imports
+  style: compressed
 
 include: ["_pages"]
 
