@@ -5,6 +5,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: default
+  config:
+    required: true
+  description: The layout file from the _layouts folder that this comes from
 - type: text
   name: title
   label: title
@@ -14,3 +18,4 @@ fields:
 - type: text
   name: custom-css
   label: custom-css
+  description: the filename of a css file or compiled scss in /assets/css/
