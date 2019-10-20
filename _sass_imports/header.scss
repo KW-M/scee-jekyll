@@ -17,18 +17,16 @@
     display: inline-block;
     margin: 0px 15px 0px 15px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
   }
 
   .page-link.link-active {
-color: #ffcc00;
+    color: #ffcc00;
   }
 
   .page-link:hover {
     text-decoration: none;
   }
-
-
 }
