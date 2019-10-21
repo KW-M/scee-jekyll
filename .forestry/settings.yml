@@ -4,15 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: _data
-  label: Data
-  create: documents
-  match: "**/*"
-  new_doc_ext: ".json"
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: _data/members.json
+  label: Team Members
 - type: directory
   path: _pages
   label: Pages
@@ -21,14 +18,24 @@ sections:
   new_doc_ext: html
   templates:
   - html-page
+- type: directory
+  path: assets/images
+  label: Images
+  create: all
+  match: "**/*"
+  new_doc_ext: png
+- type: directory
+  path: _data
+  label: Data
+  create: documents
+  match: "**/*"
+  new_doc_ext: json
 upload_dir: assets/images/post-images
 public_path: "/assets/images/post-images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_env:
-  - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
