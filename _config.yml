@@ -21,9 +21,7 @@ title: SCEE
 timezone: America/Los_Angeles
 email: scee.ucsc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  SCEE aims to build a diverse community of student innovators and creative problem solvers. We encourage students, through our engaging events and workshops, to have unique insights on social and technical problems our society is facing today. We believe that innovation is the only way forward.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scee.ucsc.edu" # the base hostname & protocol for your site, e.g. http://example.com
 

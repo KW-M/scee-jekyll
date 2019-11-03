@@ -2,41 +2,51 @@
 title: About
 permalink: "/about/"
 layout: page
+custom-css: about
 ---
+<h1 class="about-title">About</h1>
+<section id="missonSection">
 
-<section id="misson_section">
-
+    <h1>Our Mission</h1>
+    <h2>- Connect, Collaborate, Create -</h2>
+    <p> SCEE aims to build a diverse community of student innovators and creative problem solvers. We encourage
+        students, through our engaging events and workshops, to have unique insights on social and technical problems
+        our society is facing today. We believe that innovation is the only way forward.</p>
 </section>
-<section id="team_section">
+<section id="teamSection">
+    <h1>Our Team</h1>
     <ul id="memberColumn1" class="memberList">
-        {% for member in site.data.members.teamMembers %}
-            {%- assign even_value = forloop.index | modulo: 2 -%}
-            {%- if even_value == 0 -%}
-               <li class="teamMember">
-                   <div class="memberCardTop clearfix">
-                        <img class="memberImage" src="{{ member.imagePath |  default: '/assets/images/defaultProfilePhoto.jpg' | relative_url }}">
-                        <h3 class="memberName">{{member.fullName}}</h3>
-                        <h3 class="memberPosition">{{member.position}}</h3>
-                    </div>
-                    <p class="memberDescription">{{member.description}}</p>
-                </li>
-            {%- endif -%}
+        {% for member in site.data.members %}
+        {%- assign even_value = forloop.index | modulo: 2 -%}
+        {%- if even_value == 0 -%}
+        <li class="teamMember">
+            <div class="memberCardTop clearfix">
+                <img class="memberImage"
+                    src="{{ member.imagePath | default: '/assets/images/member-photos/' | append: member.fullName | append: '.jpg' |  relative_url }}"
+                    onerror='this.src="{{"/assets/images/defaultProfilePhoto.jpg" |  relative_url }}"'>
+                <h3 class="memberName">{{member.fullName}}</h3>
+                <h3 class="memberPosition">{{member.position}}</h3>
+            </div>
+            <p class="memberDescription">{{member.description}}</p>
+        </li>
+        {%- endif -%}
         {% endfor %}
     </ul>
     <ul id="memberColumn2" class="memberList">
-        hib
-        {% for member in site.data.members.teamMembers %}
-            {%- assign even_value = forloop.index | modulo: 2 -%}
-            {%- if even_value > 0 -%}
-                <li class="teamMember">
-                    <div class="memberCardTop clearfix">
-                        <img class="memberImage" src="{{ member.imagePath |  default: '/assets/images/defaultProfilePhoto.jpg' | relative_url }}">
-                        <h3 class="memberName">{{member.fullName}}</h3>
-                        <h3 class="memberPosition">{{member.position}}</h3>
-                    </div>
-                    <p class="memberDescription">{{member.description}}</p>
-                </li>
-            {%- endif -%}
+        {% for member in site.data.members %}
+        {%- assign even_value = forloop.index | modulo: 2 -%}
+        {%- if even_value > 0 -%}
+        <li class="teamMember">
+            <div class="memberCardTop clearfix">
+                <img class="memberImage"
+                    src="{{ member.imagePath | default: '/assets/images/member-photos/' | append: member.fullName | append: '.jpg' |  relative_url }}"
+                    onerror='this.src="{{"/assets/images/defaultProfilePhoto.jpg" |  relative_url }}"'>
+                <h3 class="memberName">{{member.fullName}}</h3>
+                <h3 class="memberPosition">{{member.position}}</h3>
+            </div>
+            <p class="memberDescription">{{member.description}}</p>
+        </li>
+        {%- endif -%}
         {% endfor %}
     </ul>
 </section>

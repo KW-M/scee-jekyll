@@ -9,7 +9,6 @@ custom-css: blog
 
 <div class="wrapper">
     <h1 class="blog-title">Blog</h1>
-
     {%- for post in site.posts -%}
     {% if post.show-in-blog %}
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -23,7 +22,7 @@ custom-css: blog
                         {{ post.date | date: date_format }}
                     </time>
                     {%- endif -%}
-                    {%- if post.event-location -%}
+                    {%- if post.event-location and post.event-location != '' -%}
                     <img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">
                     <span class="event-location"> {{ post.event-location | escape }}</span>
                     {%- endif -%}

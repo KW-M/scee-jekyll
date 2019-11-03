@@ -1,14 +1,50 @@
 ---
 ---
 
-#mission {
+.about-title {
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px;
+  padding-top: 10px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 80px;
+  font-size: 45px;
+}
+
+#missonSection {
+    h1 {
+      margin: 0px auto;
+      text-align: center;
+      padding: 0px;
+      padding-top: 10px;
+      font-weight: 600;
+      width: 100%;
+      line-height: 80px;
+      font-size: 36px;
+    }
+    h2 {
+      text-align: center;
+    }
+
 
 }
 
-#team_section {
+#teamSection {
+  h1 {
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 80px;
+    font-size: 36px;
+  }
   .memberList {
     padding: 0;
-    width: 50%;
+    margin: 0;
+    width: 370px;
     float: left;
   }
 
@@ -38,7 +74,7 @@
   }
 
   .memberName {
-    padding: 65px 0 16px;
+    padding: 46px 0 0px;
     color: rgb(94, 94, 94);
     letter-spacing: 2px;
     font-weight: 500;

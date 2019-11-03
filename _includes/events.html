@@ -21,15 +21,13 @@
               {% endif %}
               <p class="post-meta">
                   {%- if post.event-date -%}
-                  <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">
                   <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
                       itemprop="datePublished">
-                      {{ post.date | date: date_format }}
+                      <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">{{ post.date | date: date_format }}
                   </time>
                   {%- endif -%}
-                  {%- if post.event-location -%}
-                  <img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">
-                  <span class="event-location"> {{ post.event-location | escape }}</span>
+                  {%- if post.event-location and post.event-location != '' -%}
+                  <span class="event-location"><img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">{{ post.event-location | escape }}</span>
                   {%- endif -%}
               </p>
               {%- if post.featured-image -%}

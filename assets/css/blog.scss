@@ -1,43 +1,51 @@
 ---
 ---
 
-
-
 .blog-title {
-    margin: 0px auto;
-    text-align: center;
-    padding: 0px;
-    padding-top: 10px;
-    font-weight: 700;
-    width: 100%;
-    line-height: 80px;
-    font-size: 45px;
-  }
-
-.event-date, .event-location {
-    font-weight: bold;
-margin-right: 16px;
-margin-left: 4px;
-font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  padding-top: 10px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 80px;
+  font-size: 45px;
 }
-.post-header {margin: 10px 0;}
-.post-title{margin-right:24px ; float: left;}
-.post-meta {margin: 10px 0; float: left;}
+
+.event-date,
+.event-location {
+  font-weight: bold;
+  margin-right: 16px;
+  margin-left: 4px;
+  font-size: 16px;
+}
+.post-header {
+  margin: 10px 0;
+}
+.post-title {
+  margin-right: 24px;
+  float: left;
+}
+.post-meta {
+  margin: 10px 0;
+  float: left;
+}
 
 .meta-icon {
-    margin-top: -3px;
-    height: 24px;
+  margin-top: -3px;
+  height: 24px;
 }
 
-.post {margin: 40px 0;}
-
-.post-featured-image{
-    width: 100%;
-    max-height: unset;
+.post {
+  margin: 40px 0;
 }
-.image-container{
-    max-height:400px ;
-    overflow: hidden;
+
+.post-featured-image {
+  width: 100%;
+  max-height: unset;
+}
+.image-container {
+  max-height: 400px;
+  overflow: hidden;
   margin-bottom: 20px;
 }
-

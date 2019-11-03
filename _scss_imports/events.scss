@@ -1,7 +1,7 @@
-
 .events-section {
   margin: 8px;
   .post-list-heading {
+    font-weight: bold;
     text-align: center;
   }
   .post-list {
@@ -19,13 +19,20 @@
         height: 200px;
         margin: 8px auto;
       }
-      .post-meta {margin: 10px auto;font-size: 14px;font-weight: bold;}
-
-.meta-icon {
-    margin: -3px 4px 0 12px;
-    height: 24px;
-}
+      .post-meta {
+        margin: 10px auto;
+        font-size: 14px;
+        font-weight: bold;
+        span,
+        time {
+          display: inline-block;
+          white-space: nowrap;
+        }
+      }
+      .meta-icon {
+        margin: -3px 4px 0 12px;
+        height: 24px;
+      }
     }
   }
-
 }

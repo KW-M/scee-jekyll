@@ -2,16 +2,36 @@
   border: unset;
   box-shadow: 2px 2px 5px #00000030;
   z-index: 50;
-  .wrapper {
-    max-width: unset;
-    padding: 0 20px;
-  }
   .site-logo img {
     height: 80px;
     width: 80px;
+    padding-left: 20px;
   }
+
   .site-nav {
     line-height: 80px;
+    right: 0;
+    left: 0;
+    top: 19px;
+    border: none;
+    background-color: unset;
+
+    @media screen and (max-width: 600px) {
+    .trigger {
+      // display: block;
+      padding-bottom: 5px;
+      max-height: 0;
+      margin-top: 60px;
+      background: white;
+      transition: max-height 1s;
+      // border-top: solid 1px rgb(245, 245, 245);
+      box-shadow: 0px 3px 2px #00000030;
+    }
+  }
+
+    input:checked ~ .trigger {
+      max-height: 1000px;
+    }
   }
   .page-link {
     display: inline-block;
