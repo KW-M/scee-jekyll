@@ -3,14 +3,18 @@ label: Blog Post
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  name: data
+  label: date published
 - type: file
   name: featured-image
   label: featured-image
@@ -20,12 +24,20 @@ fields:
 - type: boolean
   name: show-in-blog
   label: show-in-blog
+  default: true
 - type: boolean
   name: show-in-events
   label: show-in-events
+  default: true
 - type: datetime
   name: event-date
   label: event-date
+  showOnly:
+    field: show-in-events
+    value: true
 - type: text
   name: event-location
   label: event-location
+  showOnly:
+    field: show-in-events
+    value: true
