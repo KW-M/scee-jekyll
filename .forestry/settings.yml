@@ -19,12 +19,6 @@ sections:
   templates:
   - html-page
 - type: directory
-  path: assets/images
-  label: Images
-  create: all
-  match: "**/*"
-  new_doc_ext: png
-- type: directory
   path: _data
   label: Data
   create: documents
