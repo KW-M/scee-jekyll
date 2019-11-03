@@ -15,6 +15,7 @@ fields:
 - type: datetime
   name: data
   label: date published
+  default: now
 - type: file
   name: featured-image
   label: featured-image
