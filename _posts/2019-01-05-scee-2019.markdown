@@ -3,6 +3,7 @@ title: SCEE 2019
 date: 2019-01-05 02:38:51 Z
 layout: post
 show-in-events: true
+show-in-blog: true
 featured-image: "/assets/images/post-images/health-center.jpg"
 featured-image-hover-text: UCSC Health Center
 ---

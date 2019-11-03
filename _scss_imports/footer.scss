@@ -5,5 +5,18 @@
     color:white;
     text-align: center;
     padding: 25px 0 60px 0;
+    z-index: 2;
 }
 
+.feed-subscribe {
+    position: fixed;
+bottom: 3px;
+padding: 0px 6px;
+margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .feed-subscribe {
+        display: none;
+    }
+}

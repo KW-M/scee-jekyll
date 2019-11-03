@@ -2,7 +2,7 @@
 title: How to use Jekyll
 date: 2019-10-06 01:38:51 Z
 layout: post
-event-date: 2019-10-06 01:38:51 Z
+show-in-blog: true
 show-in-events: false
 featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
 featured-image-hover-text: Merrill Cultural Center

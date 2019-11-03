@@ -1,32 +1,57 @@
 <section class="events-section">
-{%- if site.posts.size > 0 -%}
-<h2 class="post-list-heading">Events</h2>
-<ul class="post-list">
-  {%- for post in site.posts -%}
-    {%- if post.show-in-news -%}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          <h3 class="post-link">
-              {{ post.title | escape }}
-          </h3>
-          {%- if post.featured-image -%}
-            <img src="{{ post.featured-image | relative_url }}" class="featured-image" alt="{{ post.featured-image-hover-text | default: 'article image' }}" />
-          {%- endif -%}
-        </a>
-        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-    {%- endif -%}
-  {%- endfor -%}
-</ul>
-</section>
 
-<p class="feed-subscribe">
-  <a href="{{ 'feed.xml' | relative_url }}">
-    <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS Subscribe</span>
-  </a>
-</p>
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">Events</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+      {%- if post.show-in-events -%}
+        <li>
+            {% if post.excerpt != post.content %}
+          <a  href="{{ post.url | relative_url }}" >
+            <h3 class="post-link">
+                {{ post.title | escape }}
+            </h3>
+          </a>
+          {% else %}
+              <h3 class="post-link">
+                  {{ post.title | escape }}
+              </h3>
+              {% endif %}
+              <p class="post-meta">
+                  {%- if post.event-date -%}
+                  <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">
+                  <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
+                      itemprop="datePublished">
+                      {{ post.date | date: date_format }}
+                  </time>
+                  {%- endif -%}
+                  {%- if post.event-location -%}
+                  <img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">
+                  <span class="event-location"> {{ post.event-location | escape }}</span>
+                  {%- endif -%}
+              </p>
+              {%- if post.featured-image -%}
+                <img src="{{ post.featured-image | relative_url }}" class="featured-image" alt="{{ post.featured-image-hover-text | default: 'article image' }}" />
+              {%- endif -%}
+
+
+          <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
 {%- endif -%}
+<p class="feed-subscribe">
+    <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange">
+            <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+        </svg><span>RSS Subscribe</span>
+    </a>
+</p>

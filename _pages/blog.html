@@ -5,3 +5,56 @@ layout: default
 custom-css: blog
 ---
 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+<div class="wrapper">
+    <h1 class="blog-title">Blog</h1>
+
+    {%- for post in site.posts -%}
+    {% if post.show-in-blog %}
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header clearfix">
+            <h1 class="post-title p-name" itemprop="name headline">{{ post.title | escape }} </h1>
+            <p class="post-meta">
+                    {%- if post.event-date -%}
+                    <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">
+                    <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
+                        itemprop="datePublished">
+                        {{ post.date | date: date_format }}
+                    </time>
+                    {%- endif -%}
+                    {%- if post.event-location -%}
+                    <img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">
+                    <span class="event-location"> {{ post.event-location | escape }}</span>
+                    {%- endif -%}
+                </p>
+        </header>
+
+        {%- if post.featured-image -%}
+        <div class="image-container">
+            <img class="post-featured-image" src="{{ post.featured-image | relative_url }}"
+                alt="{{ post.featured-image-hover-text | default: 'article image' }}" />
+        </div>
+        {%- endif -%}
+
+        <div class="post-content e-content" itemprop="articleBody">
+            {{ post.content }}
+        </div>
+        <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+            </time>
+        </p>
+    </article>
+    {% endif %}
+    {%- endfor -%}
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</div>
+<p class="feed-subscribe">
+    <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange">
+            <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+        </svg><span>RSS Subscribe</span>
+    </a>
+</p>
