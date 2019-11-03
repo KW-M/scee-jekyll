@@ -6,7 +6,9 @@ webhook_url:
 sections:
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - blog-post
 - type: document
   path: _data/members.json
   label: Team Members
