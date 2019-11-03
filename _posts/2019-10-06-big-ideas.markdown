@@ -1,13 +1,14 @@
 ---
 title: Big Ideas
-date: 2019-10-06 01:38:51 Z
+date: '2019-10-06T01:38:51.000+00:00'
 layout: post
 featured-image: "/assets/images/post-images/light-bulb-idea.jpg"
-featured-image-hover-text: "Big Ideas Icon"
+featured-image-hover-text: Big Ideas Icon
 show-in-blog: false
 show-in-events: true
-event-date: 2019-11-16 01:38:51 Z
-event-location: "TBD"
----
+event-date: 2019-11-17 07:59:00 +0000
+event-location: ''
+data: 2019-10-11 07:00:00 +0000
 
+---
 The Big Ideas contest is upon us! The UC wide competition aims to ignite entrepreneurs across all UC campuses. Apply by November 16!!
