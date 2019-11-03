@@ -23,7 +23,7 @@
                   {%- if post.event-date -%}
                   <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
                       itemprop="datePublished">
-                      <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">{{ post.date | date: date_format }}
+                      <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">{{ post.event-date | date: date_format }}
                   </time>
                   {%- endif -%}
                   {%- if post.event-location and post.event-location != '' -%}

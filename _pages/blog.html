@@ -19,7 +19,7 @@ custom-css: blog
                     <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">
                     <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
                         itemprop="datePublished">
-                        {{ post.date | date: date_format }}
+                        {{ post.event-date | date: date_format }}
                     </time>
                     {%- endif -%}
                     {%- if post.event-location and post.event-location != '' -%}
