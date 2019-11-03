@@ -1,11 +1,14 @@
 ---
 title: How to use Jekyll
-date: 2019-10-06T01:38:51.000+00:00
+date: '2019-10-06T01:38:51.000+00:00'
 layout: post
 show-in-blog: true
 show-in-events: false
 featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
 featured-image-hover-text: Merrill Cultural Center
+data: 2019-11-03 18:46:38 +0000
+event-date: 
+event-location: ''
 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
