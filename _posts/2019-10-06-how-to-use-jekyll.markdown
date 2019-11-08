@@ -6,7 +6,7 @@ show-in-blog: true
 show-in-events: false
 featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
 featured-image-hover-text: Merrill Cultural Center
-data: 2019-11-03 18:46:38 +0000
+data: 2019-11-03T18:46:38.000+00:00
 event-date: 
 event-location: ''
 
