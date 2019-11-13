@@ -29,3 +29,11 @@ P.E.T.E.R. is a PET-Eating Robot shaped like a sea turtle. The "robot" is genero
 **Most Business-viable Award Winner: Autoponics**: The Earth only has enough arable land to feed around 9.5 billion people. Combining automation and hydroponics technology, Autoponics is the necessary solution to sidestep Earth's carrying capacity. Using a fully autonomous robotic hydroponics system, we can expand vertically and create a smarter way to sustain humanity in the future.
 
 ![Brandon Mee-Lee's Autoponics](/assets/images/post-images/DSC07283.JPG "Brandon Mee-Lee's Autoponics")
+
+Thanks to everyone who came out and witnessed Slug Tank! A special thanks to our judges, all the teams who participated, and our sponsors. Slug Tank 2019 was a huge success, and SCEE plans to bring it back in the following year.
+
+![](/assets/images/post-images/judge panel.JPG)
+
+![](/assets/images/post-images/Slug Tank Audience.JPG)
+
+![](/assets/images/post-images/Slug Tank Urchin Team.JPG)
