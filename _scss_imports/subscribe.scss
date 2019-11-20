@@ -29,12 +29,13 @@
     font-size: 12px;
   }
 
-  button {
+  input[type="submit"] {
     margin: 10px 5px 10px 5px;
     width: 100px;
     height: 35px;
     background-color: #ffcc00;
     font-size: 12px;
+    cursor: pointer;
   }
   #subscribedMessage {
     display:none;
