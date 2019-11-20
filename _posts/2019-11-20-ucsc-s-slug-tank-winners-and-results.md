@@ -1,12 +1,12 @@
 ---
 layout: post
-data: 2019-11-13 09:58:49 -0800
+data: 2019-11-13T17:58:49.000+00:00
 show-in-blog: true
 show-in-events: true
 title: UCSC's Slug Tank Winners and Results
 featured-image: "/assets/images/post-images/slugtank winners.jpg"
 featured-image-hover-text: Slug Tank Winners and SCEE Team
-event-date: 2019-11-28 17:00:00 -0800
+event-date: 2019-11-29T01:00:00.000+00:00
 event-location: Merrill Cultural Center
 
 ---
