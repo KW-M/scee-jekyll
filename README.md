@@ -8,6 +8,12 @@ You can use the [editor on GitHub](https://github.com/KW-M/scee-jekyll/edit/mast
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Running Jekyll Locally
+1. Make sure you have [Ruby](https://jekyllrb.com/docs/installation/)
+2. Install Jekyll & bundler with `gem install jekyll bundler` then `bundle install`
+3. Run `bundle exec jekyll serve` to serve the website on your local network.
+3. Open the server address URL it gives you... Ta Da!
+
 ### Directory Structure
 
 - `_config.yml` Jekyll's configuration file. You can set global variables here which can be used in html templates.
