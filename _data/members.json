@@ -1,11 +1,5 @@
 [
   {
-    "fullName": "Jordan Sachs-Amrami",
-    "position": "Operations",
-    "description": "",
-    "activeMember": true
-  },
-  {
     "fullName": "Sarah Baghdadi",
     "position": "Co-president",
     "description": "Sarah Baghdadi is a second year majoring in Business Management Economics. She is working on her own fashion startup collaborating with artists of marginalized communities to create clothing items that are cheap, sustainable, and ethical. Her startup Incite! wants to wreak havoc on the traditional fast fashion world by introducing ethicality and sustainability while paying artists well for their creations and allowing them to express their activist agenda and their culture. \nShe’s also passionate about saving the environment and improving human lives through science. \n",
@@ -51,6 +45,12 @@
     "fullName": "Daryoush Ghoreishi",
     "position": "Director of Finance",
     "description": "Daryoush Ghoreishi is currently an undergraduate student at UC Santa Cruz studying Computer Science. His passions for finance stem from his interest in the acquisition, management, and usage of cash money. He strongly believes in the value of financial literacy as a vehicle towards improving one's life. Early on in life he developed a strong interest in trading and investing in the stock market after playing Grand Theft Auto V throughout the night at a friends house. His passions for entrepreneurship stem from his life goal to found his own startup one day. Major notable life achievements include but are not limited to running an unsuccessful Minecraft server, getting into college, and creating a cookie clicker clone in Unity3d. ",
+    "activeMember": true
+  },
+  {
+    "fullName": "Jordan Sachs-Amrami",
+    "position": "Operations",
+    "description": "",
     "activeMember": true
   },
   {
