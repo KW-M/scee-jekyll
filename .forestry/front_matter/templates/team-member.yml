@@ -19,3 +19,5 @@ fields:
     type: boolean
     label: activeMember
     default: true
+pages:
+- _data/members.json

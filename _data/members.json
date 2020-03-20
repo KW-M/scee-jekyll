@@ -1,52 +1,62 @@
 [
   {
-    "fullName": "Aaron Huang",
-    "position": "Co-President",
-    "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality."
+    "fullName": "Kyle Worcester-Moore",
+    "position": "Tech Lead",
+    "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to actual problems, that's what brought him to the SCEE community.",
+    "activeMember": true
   },
   {
     "fullName": "Sarah Baghdadi",
     "position": "Co-president",
-    "description": "Sarah Baghdadi is a second year majoring in Business Management Economics. She is working on her own fashion startup collaborating with artists of marginalized communities to create clothing items that are cheap, sustainable, and ethical. Her startup Incite! wants to wreak havoc on the traditional fast fashion world by introducing ethicality and sustainability while paying artists well for their creations and allowing them to express their activist agenda and their culture. \nShe’s also passionate about saving the environment and improving human lives through science. \n"
+    "description": "Sarah Baghdadi is a second year majoring in Business Management Economics. She is working on her own fashion startup collaborating with artists of marginalized communities to create clothing items that are cheap, sustainable, and ethical. Her startup Incite! wants to wreak havoc on the traditional fast fashion world by introducing ethicality and sustainability while paying artists well for their creations and allowing them to express their activist agenda and their culture. \nShe’s also passionate about saving the environment and improving human lives through science. \n",
+    "activeMember": true
   },
   {
-    "fullName": "Brandon In",
-    "position": "VP Engineering",
-    "description": "Brandon is a UCSC undergraduate who is studying Computer Science(CS) and Technology Information Management(TIM). He has a strong passion for entrepreneurship and is heavily interested in both Big Data and E-commerce. Brandon was involved in 2 startups, Wuddle and OnDelivery. Currently, Brandon is working on another startup: ArcTik - which allows business to consumer advertising and event hosting."
+    "fullName": "Aaron Huang",
+    "position": "Co-President",
+    "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality.",
+    "activeMember": true
   },
   {
     "fullName": "Max Landesz",
     "position": "Co-Lead of Marketing",
-    "description": "Max is a UCSC undergraduate student currently studying Economics. He is expected to graduate in June 2022. He is interested in entrepreneurial pursuits and his goal after college is to start his own FinTech startup after gaining experience in the technology or financial services sector. He is currently initializing and executing the SCEE marketing strategy. "
-  },
-  {
-    "fullName": "Naman Sudan",
-    "position": "Director of Operations",
-    "description": "Naman is an enthusiastic and driven international undergraduate student from India double majoring in Technology Information Management and Business Economics at UC Santa Cruz. He is one of the founding members of the student organisation. As director of operations, he is responsible for optimising the efficiency of each department and facilitating workability at SCEE. Naman resonates with, \"When I am being myself, nothing more and nothing less – when I am doing exactly what I am doing – when I am allowing what is so around me to be exactly like it is – when I am being right here instead of where I am going – when I am observing it all just as it is without adding any judgments or evaluations or comparing it, then I observe that it is perfect. (For right now, – not that it should stay that way.) A thing is perfect when it is the way it is – when it is itself.\""
-  },
-  {
-    "fullName": "Kyle Worcester-Moore",
-    "position": "Tech Lead",
-    "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to actual problems, that's what brought him to the SCEE community."
+    "description": "Max is a UCSC undergraduate student currently studying Economics. He is expected to graduate in June 2022. He is interested in entrepreneurial pursuits and his goal after college is to start his own FinTech startup after gaining experience in the technology or financial services sector. He is currently initializing and executing the SCEE marketing strategy. ",
+    "activeMember": true
   },
   {
     "fullName": "Bobby Missirian",
     "position": "Programs",
-    "description": "Bobby a Computer Science major who enjoys entrepreneurship, music, and surfing. He is currently working on revolutionizing metrics for real-world advertisements in his startup called Kahzum. After developing his advertising idea in a rarely offered class, Crown 90 Entrepreneurship Academy, Bobby is inspired to further facilitate entrepreneurship on campus."
+    "description": "Bobby a Computer Science major who enjoys entrepreneurship, music, and surfing. He is currently working on revolutionizing metrics for real-world advertisements in his startup called Kahzum. After developing his advertising idea in a rarely offered class, Crown 90 Entrepreneurship Academy, Bobby is inspired to further facilitate entrepreneurship on campus.",
+    "activeMember": false
+  },
+  {
+    "fullName": "Brandon In",
+    "position": "VP Engineering",
+    "description": "Brandon is a UCSC undergraduate who is studying Computer Science(CS) and Technology Information Management(TIM). He has a strong passion for entrepreneurship and is heavily interested in both Big Data and E-commerce. Brandon was involved in 2 startups, Wuddle and OnDelivery. Currently, Brandon is working on another startup: ArcTik - which allows business to consumer advertising and event hosting.",
+    "activeMember": false
+  },
+  {
+    "fullName": "Naman Sudan",
+    "position": "Director of Operations",
+    "description": "Naman is an enthusiastic and driven international undergraduate student from India double majoring in Technology Information Management and Business Economics at UC Santa Cruz. He is one of the founding members of the student organisation. As director of operations, he is responsible for optimising the efficiency of each department and facilitating workability at SCEE. Naman resonates with, \"When I am being myself, nothing more and nothing less – when I am doing exactly what I am doing – when I am allowing what is so around me to be exactly like it is – when I am being right here instead of where I am going – when I am observing it all just as it is without adding any judgments or evaluations or comparing it, then I observe that it is perfect. (For right now, – not that it should stay that way.) A thing is perfect when it is the way it is – when it is itself.\"",
+    "activeMember": false
   },
   {
     "fullName": "Pablo Robles",
     "position": "Speaker Coordinator",
-    "description": "Pablo Robles is an undergraduate Music Major at UCSC.  He is very passionate about music and has been developing his business, Getting out of the Garage which connects local artists and musicians to different communities around California, for six years.  He is now helping develop an entrepreneurial community at University of California Santa Cruz by connecting successful entrepreneurs with a platform to help student develop their own start ups.  "
+    "description": "Pablo Robles is an undergraduate Music Major at UCSC.  He is very passionate about music and has been developing his business, Getting out of the Garage which connects local artists and musicians to different communities around California, for six years.  He is now helping develop an entrepreneurial community at University of California Santa Cruz by connecting successful entrepreneurs with a platform to help student develop their own start ups.  ",
+    "activeMember": false
   },
   {
     "fullName": "Octavio E. Anino Barber",
     "position": "Events Coordinator",
-    "description": "Profile:\nUCSC class of 2022\nComputer Science Major\nInterested in business activities, specially entrepreneurship.\nI strive to provide fellow students with whatever resources they need to further their entrepreneurial lives. To this end, I have joined SCEE, and look forward to organizing - and participating in - as many events as possible.\n\nAbout me:\n\nI was born in Argentina, lived there, in Mexico, and the US. I am fluent in Spanish and English, and would like to learn more languages. I enjoy movies, music, playing the guitar, and going on hikes. As far as sports go, I am interested in soccer and swimming.   "
+    "description": "Profile:\nUCSC class of 2022\nComputer Science Major\nInterested in business activities, specially entrepreneurship.\nI strive to provide fellow students with whatever resources they need to further their entrepreneurial lives. To this end, I have joined SCEE, and look forward to organizing - and participating in - as many events as possible.\n\nAbout me:\n\nI was born in Argentina, lived there, in Mexico, and the US. I am fluent in Spanish and English, and would like to learn more languages. I enjoy movies, music, playing the guitar, and going on hikes. As far as sports go, I am interested in soccer and swimming.   ",
+    "activeMember": true
   },
   {
     "fullName": "Daryoush Ghoreishi",
     "position": "Director of Finance",
-    "description": "Daryoush Ghoreishi is currently an undergraduate student at UC Santa Cruz studying Computer Science. His passions for finance stem from his interest in the acquisition, management, and usage of cash money. He strongly believes in the value of financial literacy as a vehicle towards improving one's life. Early on in life he developed a strong interest in trading and investing in the stock market after playing Grand Theft Auto V throughout the night at a friends house. His passions for entrepreneurship stem from his life goal to found his own startup one day. Major notable life achievements include but are not limited to running an unsuccessful Minecraft server, getting into college, and creating a cookie clicker clone in Unity3d. "
+    "description": "Daryoush Ghoreishi is currently an undergraduate student at UC Santa Cruz studying Computer Science. His passions for finance stem from his interest in the acquisition, management, and usage of cash money. He strongly believes in the value of financial literacy as a vehicle towards improving one's life. Early on in life he developed a strong interest in trading and investing in the stock market after playing Grand Theft Auto V throughout the night at a friends house. His passions for entrepreneurship stem from his life goal to found his own startup one day. Major notable life achievements include but are not limited to running an unsuccessful Minecraft server, getting into college, and creating a cookie clicker clone in Unity3d. ",
+    "activeMember": true
   }
 ]
