@@ -15,3 +15,7 @@ fields:
   - type: textarea
     name: description
     label: description
+  - name: activeMember
+    type: boolean
+    label: activeMember
+    default: true
