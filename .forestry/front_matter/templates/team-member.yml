@@ -1,0 +1,17 @@
+---
+label: Team Member
+hide_body: true
+fields:
+- type: field_group_list
+  name: Members
+  label: Members
+  fields:
+  - type: text
+    name: fullName
+    label: fullName
+  - type: text
+    name: position
+    label: position
+  - type: textarea
+    name: description
+    label: description
