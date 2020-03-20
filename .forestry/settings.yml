@@ -4,12 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: Styles
-  create: documents
-  match: "**/*.scss"
-  new_doc_ext: ".scss"
 - type: jekyll-posts
   label: Posts
   create: documents
@@ -32,6 +26,12 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: json
+- type: directory
+  path: ''
+  label: Styles
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".scss"
 upload_dir: assets/images/post-images
 public_path: "/assets/images/post-images"
 front_matter_path: ''
