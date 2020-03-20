@@ -1,10 +1,5 @@
 [
   {
-    "fullName": "Kyle Worcester-Moore",
-    "position": "Tech Lead",
-    "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to actual problems, that's what brought him to the SCEE community."
-  },
-  {
     "fullName": "Aaron Huang",
     "position": "Co-President",
     "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality."
@@ -33,6 +28,11 @@
     "fullName": "Naman Sudan",
     "position": "Director of Operations",
     "description": "Naman is an enthusiastic and driven international undergraduate student from India double majoring in Technology Information Management and Business Economics at UC Santa Cruz. He is one of the founding members of the student organisation. As director of operations, he is responsible for optimising the efficiency of each department and facilitating workability at SCEE. Naman resonates with, \"When I am being myself, nothing more and nothing less – when I am doing exactly what I am doing – when I am allowing what is so around me to be exactly like it is – when I am being right here instead of where I am going – when I am observing it all just as it is without adding any judgments or evaluations or comparing it, then I observe that it is perfect. (For right now, – not that it should stay that way.) A thing is perfect when it is the way it is – when it is itself.\""
+  },
+  {
+    "fullName": "Kyle Worcester-Moore",
+    "position": "Tech Lead",
+    "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to actual problems, that's what brought him to the SCEE community."
   },
   {
     "fullName": "Pablo Robles",
