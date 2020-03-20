@@ -5,6 +5,11 @@
     "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality."
   },
   {
+    "fullName": "Sarah Baghdadi",
+    "position": "Co-president",
+    "description": "Sarah Baghdadi is a second year majoring in Business Management Economics. She is working on her own fashion startup collaborating with artists of marginalized communities to create clothing items that are cheap, sustainable, and ethical. Her startup Incite! wants to wreak havoc on the traditional fast fashion world by introducing ethicality and sustainability while paying artists well for their creations and allowing them to express their activist agenda and their culture. \nShe’s also passionate about saving the environment and improving human lives through science. \n"
+  },
+  {
     "fullName": "Brandon In",
     "position": "VP Engineering",
     "description": "Brandon is a UCSC undergraduate who is studying Computer Science(CS) and Technology Information Management(TIM). He has a strong passion for entrepreneurship and is heavily interested in both Big Data and E-commerce. Brandon was involved in 2 startups, Wuddle and OnDelivery. Currently, Brandon is working on another startup: ArcTik - which allows business to consumer advertising and event hosting."
@@ -15,16 +20,6 @@
     "description": "Max is a UCSC undergraduate student currently studying Economics. He is expected to graduate in June 2022. He is interested in entrepreneurial pursuits and his goal after college is to start his own FinTech startup after gaining experience in the technology or financial services sector. He is currently initializing and executing the SCEE marketing strategy. "
   },
   {
-    "fullName": "Bobby Missirian",
-    "position": "Programs",
-    "description": "Bobby a Computer Science major who enjoys entrepreneurship, music, and surfing. He is currently working on revolutionizing metrics for real-world advertisements in his startup called Kahzum. After developing his advertising idea in a rarely offered class, Crown 90 Entrepreneurship Academy, Bobby is inspired to further facilitate entrepreneurship on campus."
-  },
-  {
-    "fullName": "Sarah Baghdadi",
-    "position": "Co-president",
-    "description": "Sarah Baghdadi is a second year majoring in Business Management Economics. She is working on her own fashion startup collaborating with artists of marginalized communities to create clothing items that are cheap, sustainable, and ethical. Her startup Incite! wants to wreak havoc on the traditional fast fashion world by introducing ethicality and sustainability while paying artists well for their creations and allowing them to express their activist agenda and their culture. \nShe’s also passionate about saving the environment and improving human lives through science. \n"
-  },
-  {
     "fullName": "Naman Sudan",
     "position": "Director of Operations",
     "description": "Naman is an enthusiastic and driven international undergraduate student from India double majoring in Technology Information Management and Business Economics at UC Santa Cruz. He is one of the founding members of the student organisation. As director of operations, he is responsible for optimising the efficiency of each department and facilitating workability at SCEE. Naman resonates with, \"When I am being myself, nothing more and nothing less – when I am doing exactly what I am doing – when I am allowing what is so around me to be exactly like it is – when I am being right here instead of where I am going – when I am observing it all just as it is without adding any judgments or evaluations or comparing it, then I observe that it is perfect. (For right now, – not that it should stay that way.) A thing is perfect when it is the way it is – when it is itself.\""
@@ -33,6 +28,11 @@
     "fullName": "Kyle Worcester-Moore",
     "position": "Tech Lead",
     "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to actual problems, that's what brought him to the SCEE community."
+  },
+  {
+    "fullName": "Bobby Missirian",
+    "position": "Programs",
+    "description": "Bobby a Computer Science major who enjoys entrepreneurship, music, and surfing. He is currently working on revolutionizing metrics for real-world advertisements in his startup called Kahzum. After developing his advertising idea in a rarely offered class, Crown 90 Entrepreneurship Academy, Bobby is inspired to further facilitate entrepreneurship on campus."
   },
   {
     "fullName": "Pablo Robles",
