@@ -30,15 +30,15 @@
     "activeMember": true
   },
   {
-    "fullName": "Andy Gordon",
-    "position": "Marketing",
-    "description": "Andy is a Computer Science Major and Electronic Music Minor in the UCSC Class of 2021. His interests lay in music production, music technology, software development, and the intersection of these fields with business strategy and marketing.",
-    "activeMember": true
-  },
-  {
     "fullName": "Max Landesz",
     "position": "Co-Lead of Marketing",
     "description": "Max is a UCSC undergraduate student currently studying Economics. He is expected to graduate in June 2022. He is interested in entrepreneurial pursuits and his goal after college is to start his own FinTech startup after gaining experience in the technology or financial services sector. He is currently initializing and executing the SCEE marketing strategy. ",
+    "activeMember": true
+  },
+  {
+    "fullName": "Andy Gordon",
+    "position": "Marketing",
+    "description": "Andy is a Computer Science Major and Electronic Music Minor in the UCSC Class of 2021. His interests lay in music production, music technology, software development, and the intersection of these fields with business strategy and marketing.",
     "activeMember": true
   },
   {
