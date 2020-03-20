@@ -28,8 +28,8 @@ sections:
   new_doc_ext: json
 - type: directory
   path: ''
-  label: Styles
-  create: documents
+  label: Everything
+  create: all
   match: "**/*"
   new_doc_ext: scss
 upload_dir: assets/images/post-images
