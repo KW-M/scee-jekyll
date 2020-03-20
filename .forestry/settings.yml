@@ -33,7 +33,7 @@ sections:
   match: "**/*"
   new_doc_ext: scss
 - type: directory
-  path: assets
+  path: assets/styles
   label: Assets
   create: all
   match: "**/*"
