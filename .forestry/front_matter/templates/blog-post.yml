@@ -44,7 +44,12 @@ fields:
     value: true
 pages:
 - _posts/2019-01-05-scee-2019.markdown
+- _posts/2019-01-05-scee-2019.markdown
+- _posts/2019-10-02-slug-tank.markdown
 - _posts/2019-10-02-slug-tank.markdown
 - _posts/2019-10-06-big-ideas.markdown
+- _posts/2019-10-06-big-ideas.markdown
 - _posts/2019-10-06-how-to-use-jekyll.markdown
+- _posts/2019-10-06-how-to-use-jekyll.markdown
+- _posts/2019-11-20-ucsc-s-slug-tank-winners-and-results.md
 - _posts/2019-11-20-ucsc-s-slug-tank-winners-and-results.md

@@ -32,6 +32,11 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: scss
+- type: directory
+  path: assets/css
+  label: Styles
+  create: all
+  match: "**/*"
 upload_dir: assets/images/post-images
 public_path: "/assets/images/post-images"
 front_matter_path: ''
