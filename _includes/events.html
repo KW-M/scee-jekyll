@@ -1,55 +1,57 @@
 <section class="events-section">
 
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {% assign today_date = 'now' | date: '%s' %}
+  {% assign all_events = site.posts | where_exp:"post","post.show-in-events" %}
+  {% assign upcoming_events = all_events | where_exp:"post","post.event-date >= site.time" %}
+  {% assign past_events = all_events | where_exp:"post","post.event-date < site.time" %}
 
-{%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">Events</h2>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-      {%- if post.show-in-events -%}
-        <li>
-            {% if post.excerpt != post.content %}
-          <a  href="{{ post.url | relative_url }}" >
-            <h3 class="post-link">
-                {{ post.title | escape }}
-            </h3>
-          </a>
-          {% else %}
-              <h3 class="post-link">
-                  {{ post.title | escape }}
-              </h3>
-              {% endif %}
-              <p class="post-meta">
-                  {%- if post.event-date -%}
-                  <time class="event-date" datetime="{{ page.event-date | date_to_xmlschema }}"
-                      itemprop="datePublished">
-                      <img class="meta-icon" src="{{ 'assets/images/date_icon.svg' | relative_url}}">{{ post.event-date | date: date_format }}
-                  </time>
-                  {%- endif -%}
-                  {%- if post.event-location and post.event-location != '' -%}
-                  <span class="event-location"><img class="meta-icon" src="{{ 'assets/images/location_icon.svg' | relative_url}}">{{ post.event-location | escape }}</span>
-                  {%- endif -%}
-              </p>
-              {%- if post.featured-image -%}
-                <img src="{{ post.featured-image | relative_url }}" class="featured-image" alt="{{ post.featured-image-hover-text | default: 'article image' }}" />
-              {%- endif -%}
+  {%- if upcoming_events.size > 0 -%}
+  <h2 class="post-list-heading">Upcoming Events</h2>
 
+  <div class="glide-cards">
+    <div data-glide-el="controls" id="carousel_controls">
+      <button data-glide-dir="<" class="btn-background btn-left">❮</button>
+      <button data-glide-dir=">" class="btn-background btn-right">❯</button>
+    </div>
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides post-list">
+        {%- for post in upcoming_events -%}
 
-          <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
+        <li class="glide__slide">
+          {% include event_card.html post=post  %}
         </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
+
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+  {%- endif -%}
+  {%- if past_events.size > 0 -%}
+  <h2 class="post-list-heading">Past Events</h2>
+  <div class="glide-cards">
+    <div data-glide-el="controls" id="carousel_controls">
+      <button data-glide-dir="<" class="btn-background btn-left">❮</button>
+      <button data-glide-dir=">" class="btn-background btn-right">❯</button>
+    </div>
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides post-list">
+
+        {%- for post in past_events -%}
+        <li class="glide__slide">
+          {% include event_card.html post=post  %}
+        </li>
+        {%- endfor -%}
+
+      </ul>
+    </div>
+  </div>
+  {%- endif -%}
 </section>
-{%- endif -%}
+
 <p class="feed-subscribe">
-    <a href="{{ 'feed.xml' | relative_url }}">
-        <svg class="svg-icon orange">
-            <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-        </svg><span>RSS Subscribe</span>
-    </a>
+  <a href="{{ 'feed.xml' | relative_url }}">
+    <svg class="svg-icon orange">
+      <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+    </svg><span>RSS Subscribe</span>
+  </a>
 </p>

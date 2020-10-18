@@ -3,7 +3,7 @@ title: Slug Tank
 date: '2019-10-02T01:38:51.000+00:00'
 layout: post
 show-in-events: true
-featured-image: "/assets/images/post-images/merrill-cultural-center.jpeg"
+featured-image: "/assets/images/carousel-images/SlugTank.png"
 featured-image-hover-text: Merrill Cultural Center
 show-in-blog: false
 event-date: 2019-10-24 01:00:00 +0000

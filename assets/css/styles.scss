@@ -51,6 +51,15 @@ $on-large:         $on-laptop !default;
   font-size: $base-font-size * $ratio;
 }
 
+  .wide-wrapper {
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+
+  .post-header {
+    margin-top: 36px;
+  }
+
 /////// Minima Theme Imports //////////
 
 @import

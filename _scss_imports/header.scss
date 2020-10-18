@@ -16,18 +16,27 @@
     border: none;
     background-color: unset;
 
-    @media screen and (max-width: 600px) {
-    .trigger {
-      // display: block;
-      padding-bottom: 5px;
-      max-height: 0;
-      margin-top: 60px;
-      background: white;
-      transition: max-height 1s;
-      // border-top: solid 1px rgb(245, 245, 245);
-      box-shadow: 0px 3px 2px #00000030;
+    .menu-icon {
+      padding: 12px;
+      margin-right: 2px;
     }
-  }
+
+    @media screen and (max-width: 600px) {
+      .trigger {
+        display: block;
+        overflow: hidden;
+        padding-bottom: 5px;
+        max-height: 0;
+        margin-top: 60px;
+        background: white;
+        transition: max-height 0.3s ease-in-out;
+        // border-top: solid 1px rgb(245, 245, 245);
+        box-shadow: 0px 3px 2px #00000030;
+      }
+      .page-link {
+        margin: 0px 3px 0px 3px;
+      }
+    }
 
     input:checked ~ .trigger {
       max-height: 1000px;
@@ -35,11 +44,11 @@
   }
   .page-link {
     display: inline-block;
-    margin: 0px 15px 0px 15px;
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
+    margin: 0px 15px 0px 15px;
   }
 
   .page-link.link-active {

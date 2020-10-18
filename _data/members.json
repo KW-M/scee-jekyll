@@ -6,21 +6,15 @@
     "activeMember": true
   },
   {
-    "fullName": "Aaron Huang",
-    "position": "Co-President",
-    "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality.",
+    "fullName": "Alyssa House",
+    "description": "So much of our days and lives are spent rushing, performing mundane tasks, and feeling unfulfilled. I fell into the entrepreneurship community and found so many awesome people living the exact opposite. People are sacrificing financial stability, time that would otherwise be spent on family, friends, and hobbies, and -- at times -- sanity making their dreams a reality. And they feel fulfilled. This draws other people to them.\nIn Santa Cruz today, we have so many awesome people in the entrepreneurship community. Some are makers, some are donors, some are societal and environmental protectors, but all are purposely making positive waves in their communities and the world at large.\nI am one person in this community. I like working with computer systems design on the application level -- in easier terms, I like finding a problem that can be solved with software and breaking this problem into smaller problems that are easier to manage.",
+    "position": "Tech & Operations",
     "activeMember": true
   },
   {
     "fullName": "Kyle Worcester-Moore",
     "position": "Tech Lead",
     "description": "Kyle Worcester-Moore is an undergraduate at the University of California Santa Cruz studying Computer Science: Game Design & Sustainability. He is passionate about using technology to make the world a better place. He's always exited to learn new things and apply what He's learned to real-world problems, that's what brought him to the SCEE community.",
-    "activeMember": true
-  },
-  {
-    "fullName": "Alyssa House",
-    "description": "So much of our days and lives are spent rushing, performing mundane tasks, and feeling unfulfilled. I fell into the entrepreneurship community and found so many awesome people living the exact opposite. People are sacrificing financial stability, time that would otherwise be spent on family, friends, and hobbies, and -- at times -- sanity making their dreams a reality. And they feel fulfilled. This draws other people to them.\nIn Santa Cruz today, we have so many awesome people in the entrepreneurship community. Some are makers, some are donors, some are societal and environmental protectors, but all are purposely making positive waves in their communities and the world at large.\nI am one person in this community. I like working with computer systems design on the application level -- in easier terms, I like finding a problem that can be solved with software and breaking this problem into smaller problems that are easier to manage.",
-    "position": "Tech & Operations",
     "activeMember": true
   },
   {
@@ -36,18 +30,6 @@
     "activeMember": true
   },
   {
-    "fullName": "Giselle Rangel",
-    "position": "Marketing & Communications",
-    "description": "",
-    "activeMember": true
-  },
-  {
-    "fullName": "Brandon Mee-Lee",
-    "position": "Operations",
-    "description": "",
-    "activeMember": true
-  },
-  {
     "fullName": "Max Landesz",
     "position": "Co-Lead of Marketing",
     "description": "Max is a UCSC undergraduate student currently studying Economics. He is expected to graduate in June 2022. He is interested in entrepreneurial pursuits and his goal after college is to start his own FinTech startup after gaining experience in the technology or financial services sector. He is currently initializing and executing the SCEE marketing strategy. ",
@@ -57,6 +39,18 @@
     "fullName": "Daryoush Ghoreishi",
     "position": "Director of Finance",
     "description": "Daryoush Ghoreishi is currently an undergraduate student at UC Santa Cruz studying Computer Science. His passions for finance stem from his interest in the acquisition, management, and usage of cash money. He strongly believes in the value of financial literacy as a vehicle towards improving one's life. Early on in life he developed a strong interest in trading and investing in the stock market after playing Grand Theft Auto V throughout the night at a friends house. His passions for entrepreneurship stem from his life goal to found his own startup one day. Major notable life achievements include but are not limited to running an unsuccessful Minecraft server, getting into college, and creating a cookie clicker clone in Unity3d. ",
+    "activeMember": true
+  },
+  {
+    "fullName": "Giselle Rangel",
+    "position": "Marketing & Communications",
+    "description": "",
+    "activeMember": true
+  },
+  {
+    "fullName": "Brandon Mee-Lee",
+    "position": "Operations",
+    "description": "",
     "activeMember": true
   },
   {
@@ -75,6 +69,12 @@
     "fullName": "Bobby Missirian",
     "position": "Programs",
     "description": "Bobby a Computer Science major who enjoys entrepreneurship, music, and surfing. He is currently working on revolutionizing metrics for real-world advertisements in his startup called Kahzum. After developing his advertising idea in a rarely offered class, Crown 90 Entrepreneurship Academy, Bobby is inspired to further facilitate entrepreneurship on campus.",
+    "activeMember": false
+  },
+  {
+    "fullName": "Aaron Huang",
+    "position": "Co-President",
+    "description": "Aaron is a UCSC undergraduate student studying Business Management Economics (BME) and Technology Information Management (TIM). He has a tremendous amount of passion in entrepreneurship, ethics, and technology. Motivated by using innovative methods to better human condition, Aaron was involved in multiple non-profit organizations. He’s currently working on his own startup - “The Glove” which aims to develop hardware and software to elevate human-robotics integration through augmented reality.",
     "activeMember": false
   },
   {
