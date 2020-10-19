@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to the SCEE Website Source Code!
+
+>**This repo is a live site at : [https://scee.ucsc.edu](https://scee.ucsc.edu)**
+
+*Changes pushed to the master branch should show on the live site within 5-10 minutes.*
+
+-----
+
+### How to Add Blog Posts & Content:
 
 You can use [Forestry.io](https://app.forestry.io/sites/6xc8lcwpmqe0hw/) which is a user-friendly way to update this site.
 *(You can find the Forestry.io login pinned in the Tech Channel on the SCEE Slack)*
@@ -7,14 +15,25 @@ You can use [Forestry.io](https://app.forestry.io/sites/6xc8lcwpmqe0hw/) which i
 
 You can use the [editor on GitHub](https://github.com/KW-M/scee-jekyll/edit/master/README.md) to maintain and preview the content for your website in Markdown files (Not recomended).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site. It will use the content in your Markdown files & the Liquid html templates in this repo to make posts look shiny ✨.
-
-### Running Jekyll Locally
+------
+### How to Update the site layout:
+Step 0: *Clone this repo with git*
+#### Step 1: *Running Jekyll Locally*
 1. Make sure you have [Ruby](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll & bundler with `gem install jekyll bundler` then `bundle install`
 3. Run `bundle exec jekyll serve` to serve the website on your local network.
 3. Open the server address URL it gives you... Ta Da 🎉!
 
+#### Step 2: *Push your changes to Github*
+1. When you're happy with the changes...
+2. Run `git fetch origin master`
+2. If there are no conflicts, run `git commit -a "commit message"`
+3. Then run `git push origin master`
+4. If you do have conflicts, create a new branch and push there, then create a pull request on Github.
+
+Whenever you push to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site. It will use the content in the Markdown files & the Liquid html templates in this repo to make posts look shiny ✨.
+
+----
 ### Directory Structure
 
 - `_config.yml` Jekyll's configuration file. You can set global variables here which can be used in html templates.
@@ -68,6 +87,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Github Pages Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
