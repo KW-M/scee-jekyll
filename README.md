@@ -1,18 +1,19 @@
 ## Welcome to GitHub Pages
 
-You can use [Forestry.io](https://app.forestry.io/sites/6xc8lcwpmqe0hw/) (more user-friendly, you can find the login credentials pinned in the Slack tech chanel)
+You can use [Forestry.io](https://app.forestry.io/sites/6xc8lcwpmqe0hw/) which is a user-friendly way to update this site.
+*(You can find the Forestry.io login pinned in the Tech Channel on the SCEE Slack)*
 
 **Or**
 
 You can use the [editor on GitHub](https://github.com/KW-M/scee-jekyll/edit/master/README.md) to maintain and preview the content for your website in Markdown files (Not recomended).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site. It will use the content in your Markdown files & the Liquid html templates in this repo to make posts look shiny ✨.
 
 ### Running Jekyll Locally
 1. Make sure you have [Ruby](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll & bundler with `gem install jekyll bundler` then `bundle install`
 3. Run `bundle exec jekyll serve` to serve the website on your local network.
-3. Open the server address URL it gives you... Ta Da!
+3. Open the server address URL it gives you... Ta Da 🎉!
 
 ### Directory Structure
 
