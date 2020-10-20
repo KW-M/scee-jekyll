@@ -10,14 +10,16 @@
     autoplay: 4000
   }).mount()
 
-  cardCarousel = document.querySelector(".glide-cards");
-  if (cardCarousel) new Glide(cardCarousel, {
-    type: "carousel",
-    startAt: 0,
-    perView: 4,
-    slideWidth: 300,
-    peek:20,
-    focusAt: 'center',
-    autoplay: 5000
-  }).mount()
+  cardCarousel = document.querySelectorAll(".glide-cards");
+  cardCarousel.forEach(element => {
+    new Glide(element, {
+      type: "carousel",
+      startAt: 0,
+      perView: 4,
+      slideWidth: 300,
+      peek:20,
+      focusAt: 'center',
+      autoplay: 5000
+    }).mount()
+  });
 // })

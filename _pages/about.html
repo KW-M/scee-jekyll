@@ -22,8 +22,33 @@ custom-css: about
         <h1>Our Team</h1>
         <div class="glide-cards">
             <div data-glide-el="controls" id="carousel_controls">
-                <button data-glide-dir="<" class="btn-background btn-left">❮</button>
-                <button data-glide-dir=">" class="btn-background btn-right">❯</button>
+                <button data-glide-dir="<" class="btn-background btn-left" style="max-height: 300px;">❮</button>
+                <button data-glide-dir=">" class="btn-background btn-right" style="max-height: 300px;">❯</button>
+            </div>
+            <div class="glide__track" data-glide-el="track">
+                <ul id="memberColumn" class="glide__slides post-list memberList">
+                    {% for member in site.data.members %}
+                    {% if member.activeMember == true %}
+                    <li class="teamMember glide__slide">
+                        <div class="memberCardTop clearfix">
+                            <img class="memberImage"
+                                src="{{ member.imagePath | default: '/assets/images/member-photos/' | append: member.fullName | append: '.jpg' |  relative_url }}"
+                                onerror="this.src='{{'/assets/images/defaultProfilePhoto.jpg' |  relative_url }}'">
+                            <h3 class="memberName">{{member.fullName}}</h3>
+                            <h3 class="memberPosition">{{member.position}}</h3>
+                        </div>
+                        <p class="memberDescription">{{member.description}}</p>
+                    </li>
+                    {%- endif -%}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <h1 style="margin-top: 200px;">Past Members</h1>
+        <div class="glide-cards">
+            <div data-glide-el="controls" id="carousel_controls">
+                <button data-glide-dir="<" class="btn-background btn-left" style="max-height: 300px;">❮</button>
+                <button data-glide-dir=">" class="btn-background btn-right" style="max-height: 300px;">❯</button>
             </div>
             <div class="glide__track" data-glide-el="track">
                 <ul id="memberColumn" class="glide__slides post-list memberList">
@@ -38,6 +63,9 @@ custom-css: about
                             <h3 class="memberPosition">{{member.position}}</h3>
                         </div>
                         <p class="memberDescription">{{member.description}}</p>
+                        {%- if member.description -%}
+                        <span class="more-expand-arrow">⌄</span>
+                        {%- endif -%}
                     </li>
                     {%- endif -%}
                     {% endfor %}
@@ -80,34 +108,6 @@ custom-css: about
 </div>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
-<style>
-    .glide__slide {
-        transform: translateX(-30px);
-    }
-
-    .glide__slide img {
-        height: 40vw;
-        width: 100%;
-    }
-
-    #carousel_controls button {
-        font-size: 10ex;
-        height: 100%;
-        position: absolute;
-        margin-top: 10px;
-        padding: 0px;
-        margin: 0px;
-        cursor: pointer;
-        background-color: transparent;
-        border: none;
-        z-index: 5;
-        opacity: 0.5;
-    }
-
-    #carousel_controls button:hover {
-        opacity: 1;
-    }
-</style>
 
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.js"></script>
 <script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

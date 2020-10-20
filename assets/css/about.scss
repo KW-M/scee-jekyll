@@ -46,29 +46,30 @@
     margin: 0;
     // max-width: 800px;
 
-    display: flex;
+    // display: flex;
 
-    flex-wrap: wrap;
-    justify-content: center;
+    // flex-wrap: wrap;
+    // justify-content: center;
   }
 
   .teamMember {
-    display: block;
-    margin: 24px 12px 12px 12px;
-    box-sizing: border-box;
+    // display: block;
+    // margin: 24px 12px 12px 12px;
+    // box-sizing: border-box;
     color: black;
-    text-align: left;
-    letter-spacing: 2px;
+    // text-align: left;
+    // letter-spacing: 2px;
     font-family: "Montserrat", sans-serif;
-    max-width: 346px;
-    flex: 1 0 auto;
+    // max-width: 346px;
+    overflow: hidden;
+    // flex: 1 0 auto;
   }
 
   .memberImage {
     position: relative;
     width: 170px;
     height: 170px;
-    float: left;
+    // float: left;
     border-radius: 500px;
     margin: 12px;
   }
@@ -79,11 +80,12 @@
   }
 
   .memberName {
-    padding: 46px 0 0px;
+    padding: 12px 0 8px;
     color: rgb(94, 94, 94);
     letter-spacing: 2px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
+    margin: 0;
   }
 
   .memberPosition {
@@ -96,6 +98,12 @@
   }
 
   .memberDescription {
-    text-indent: 40px;
+    // text-indent: 40px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  .teamMember:hover .memberDescription{
+    max-height: 2000px;
   }
 }
