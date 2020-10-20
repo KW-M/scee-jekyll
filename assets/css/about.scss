@@ -103,7 +103,21 @@
     overflow: hidden;
     transition: max-height 0.5s ease;
   }
-  .teamMember:hover .memberDescription{
-    max-height: 2000px;
+  .teamMember:hover {
+    .memberDescription {
+      max-height: 2000px;
+    }
+
+    .more-expand-arrow {
+      visibility: hidden;
+    }
+  }
+
+  .more-expand-arrow {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
   }
 }

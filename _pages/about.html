@@ -38,6 +38,9 @@ custom-css: about
                             <h3 class="memberPosition">{{member.position}}</h3>
                         </div>
                         <p class="memberDescription">{{member.description}}</p>
+                        {%- if member.description.size > 0 -%}
+                        <span class="more-expand-arrow">⌄</span>
+                        {%- endif -%}
                     </li>
                     {%- endif -%}
                     {% endfor %}
@@ -107,7 +110,6 @@ custom-css: about
     </section>
 </div>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
-
-<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.js"></script>
+<link rel="stylesheet" href="{{ '/assets/js/glide-3.4.1/css/glide.core.min.css' | relative_url }}" />
+<script src="{{ '/assets/js/glide-3.4.1/glide.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

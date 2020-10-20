@@ -59,3 +59,18 @@
     pointer-events: none;
   }
 }
+
+@media (max-width: 600px) {
+  #carousel_controls {
+    button.btn-background.btn-right:after {
+      width: 40px;
+    }
+    button.btn-background.btn-left:after {
+      width: 40px;
+    }
+    button {
+      padding: 16px;
+      font-size: 5ex;
+    }
+  }
+}
