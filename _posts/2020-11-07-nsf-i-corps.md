@@ -10,9 +10,7 @@ event-date: 2020-11-15 00:00:00 -0800
 event-location: Virtual
 
 ---
-Apply to the NSF I-Corps Workshops!
-
-Learn to use the lean startup methodology & complementary tools to build your ventures or further develop them. We select the most promising ventures and fund them too.
+Apply to the NSF I-Corps Workshops! Learn to use the lean startup methodology & complementary tools to build your ventures or further develop them. We select the most promising ventures and fund them too.
 
 [https://tinyurl.com/I-CorpsWorkshops](https://tinyurl.com/I-CorpsWorkshops "https://tinyurl.com/I-CorpsWorkshops")
 
