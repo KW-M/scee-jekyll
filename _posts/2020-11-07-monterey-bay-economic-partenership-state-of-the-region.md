@@ -20,4 +20,4 @@ This year’s event will be covering a range of topics relevant to our region, f
 
 Interested students can email Megan Guidi at mguidi(at)mbep.biz; email directly from your college email account to receive a promo code. Tickets will be provided on a first-come-first-served basis, the deadline to request a ticket is Wednesday, Nov. 25th.
 
-![](https://s3.amazonaws.com/dntstatic//66508a8d-e20a-49a5-41ba-6f66d4ba6cfd_256_256.png)
+[![](https://s3.amazonaws.com/dntstatic//66508a8d-e20a-49a5-41ba-6f66d4ba6cfd_256_256.png)](https://attendify.co/WX2UbtG)
