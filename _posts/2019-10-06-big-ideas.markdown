@@ -1,13 +1,16 @@
 ---
-title: Big Ideas
+title: Big Ideas Contest 2020
 date: '2019-10-06T01:38:51.000+00:00'
 layout: post
-featured-image: "/assets/images/post-images/light-bulb-idea.jpg"
+featured-image: "/assets/images/post-images/unnamed-1-copy.png"
 featured-image-hover-text: Big Ideas Icon
 show-in-blog: false
 show-in-events: true
-event-date: 2019-10-17 11:59:00 +0000
+event-date: 2020-11-20 13:00:00 -0800
 event-location: ''
+data: 2020-11-06 16:00:00 -0800
 
 ---
-The Big Ideas contest is upon us! The UC wide competition aims to ignite entrepreneurs across all UC campuses. Apply by November 16!!
+The Big Ideas contest is upon us! The UC wide competition aims to ignite entrepreneurs across all UC campuses by providing up to 20K for funding your social innovation. 
+
+Apply by November 20: [https://bigideascontest.org](https://bigideascontest.org/ "https://bigideascontest.org/")
