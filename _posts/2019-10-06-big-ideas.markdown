@@ -11,6 +11,6 @@ event-location: ''
 data: 2020-11-06 16:00:00 -0800
 
 ---
-The Big Ideas contest is upon us! The UC wide competition aims to ignite entrepreneurs across all UC campuses by providing up to 20K for funding your social innovation. 
+The Big Ideas contest is upon us! The UC wide competition aims to ignite entrepreneurs across all UC campuses by providing up to 20K for funding your social innovation.
 
 Apply by November 20: [https://bigideascontest.org](https://bigideascontest.org/ "https://bigideascontest.org/")
