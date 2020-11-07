@@ -10,8 +10,6 @@ event-date: 2020-12-02 09:30:00 -0800
 event-location: Live Stream
 
 ---
-Hello Slugs!
-
 [Monterey Bay Economic Partnership](https://gmail.us4.list-manage.com/track/click?u=f9599233814ee84a7eb45320d&id=41a47e4e21&e=f2d5e2e467) is inviting local college students to attend live-stream of the virtual [MBEP State of the Region 2020](https://gmail.us4.list-manage.com/track/click?u=f9599233814ee84a7eb45320d&id=2ab00569ab&e=f2d5e2e467), December 2nd, 9:30 AM - 1:00 PM with a free comp ticket (valued at $59)!
 
 Students - this is your free ticket to getting tuned-in to critical issues impacting the local economy and communities you’ll be joining as the heart of our future workforce in San Benito, Santa Cruz, and Monterey Counties - you don’t want to miss it!
